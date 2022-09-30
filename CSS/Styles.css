@@ -15,9 +15,13 @@
   }
 
   .vio-outline{
-    color: #BF9BFC;
-    border-color: #BF9BFC;
+    color: #BF9BFC !important;
+    border-color: #BF9BFC !important;
   }
   .vio-outline:hover{
-    border-color: #BF9BFC;
+    border-color: #BF9BFC !important;
+  }
+
+  .dropdown-item {
+    color: #707071;
   }
