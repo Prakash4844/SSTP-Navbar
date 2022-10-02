@@ -1,3 +1,20 @@
+/* General */
+
+body {
+  background-color: #fbfbfb;
+}
+
+.vio-outline{
+  color: #b5a7f8 !important;
+  border-color: #b5a7f8 !important;
+}
+.vio-outline:hover{
+  border-color: #b5a7f8 !important;
+}
+
+
+/* Navbar-Start */
+
 .navbar-dark .nav-item .nav-link {
     color: #fff;
   }
@@ -14,18 +31,13 @@
     left: 0;
   }
 
-  .vio-outline{
-    color: #BF9BFC !important;
-    border-color: #BF9BFC !important;
-  }
-  .vio-outline:hover{
-    border-color: #BF9BFC !important;
-  }
-
   .dropdown-item {
     color: #707071;
   }
 
-  body {
-    background-color: #fbfbfb;
+  .form-control:focus {
+    border-color: #b5a7f8;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgb(180,165,247);
   }
+
+  /* Navbar-End */
